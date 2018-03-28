@@ -1,3 +1,4 @@
+</div>
 </main>
 <!--Footer section-->
 <footer class="page-footer <?= $site_color_accent ?>">

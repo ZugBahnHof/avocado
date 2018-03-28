@@ -15,7 +15,8 @@ if ( $modal ) {
 	$toast = "";
 }
 
-
+$img_avocado_50 = '<img src="icons/favicon.png" height="50" width="50"></img>';
+$img_avocado_30 = '<img src="icons/favicon.png" height="30" width="30"></img>';
 
 ?>
 <!DOCTYPE html>
@@ -62,17 +63,17 @@ if ( $modal ) {
     <nav>
         <div class="nav-wrapper <?= $site_color ?>">
             <div class="container">
-                <a href="index.php" class="brand-logo">aVOCAdo</a>
+                <a href="index.php" class="brand-logo"><?= $img_avocado_30 ?>aVOCAdo</a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li>
-                        <a class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Artikel" href="#!">
+                        <a class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Test" href="#!">
                             <i class="material-icons">question_answer</i>
                         </a>
                     </li>
                     <li>
-                        <a class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Kontostand"
-                           href="#!">
-                            <i class="material-icons">add</i>
+                        <a class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Vokabeln"
+                           href="vocabulary.php">
+                            <i class="material-icons">list</i>
                         </a>
                     </li>
                     <li>
