@@ -60,6 +60,7 @@ $img_avocado_30 = '<img src="icons/favicon.png" height="30" width="30"></img>';
 <body>
 <!--Header section-->
 <header>
+	<div class="navbar-fixed">
     <nav>
         <div class="nav-wrapper <?= $site_color ?>">
             <div class="container">
@@ -86,6 +87,7 @@ $img_avocado_30 = '<img src="icons/favicon.png" height="30" width="30"></img>';
             </div>
         </div>
     </nav>
+	</div>
 </header>
 <!--main section-->
 <main>
