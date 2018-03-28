@@ -1,8 +1,8 @@
 <?php
-$site_color             = "amber";
-$site_color_accent      = "red accent-4";
-$site_color_text        = "amber-text";
-$site_color_accent_text = "red-text text-accent-4";
+$site_color             = "light-green";
+$site_color_accent      = "lime darken-4";
+$site_color_text        = "light-green-text";
+$site_color_accent_text = "lime-text text-darken-4";
 if ( isset( $_GET['msg'] ) ) {
 	$modal      = true;
 	$modal_text = $_GET['msg'];
